@@ -18,7 +18,7 @@ export default function SearchArea() {
   };
 
   const fetchWeatherByLocation = async (lat, lon) => {
-    const API_Key = "4767c92c7510a82fd1314991672cdbba";
+    const API_Key = "1669695fdb817cab90ecf96bcc7cf662";
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_Key}&units=metric`;
 
     try {
