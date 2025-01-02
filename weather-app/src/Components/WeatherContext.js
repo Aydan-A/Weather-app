@@ -8,7 +8,7 @@ export const WeatherProvider = ({ children }) => {
   const [hourlyData, setHourlyData] = useState(null);
 
   const fetchWeather = async (city) => {
-    const API_Key = "1669695fdb817cab90ecf96bcc7cf662";
+    const API_Key = "";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_Key}&units=metric`;
 
     try {
